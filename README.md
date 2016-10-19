@@ -19,7 +19,7 @@ infer_u_and_z_indivzrange.m     dependecy: -> get_pz_x_max.m
 
 ### DESCRIPTION
 
-*model_parameters.mat*  
+**model_parameters.mat**  
 The file contains parmaeters used in the simulations
 
 Dx:     scalar, number of observed variables or pixels of the image patches - 16x16=256  
@@ -27,13 +27,13 @@ Dy:     scalar, number of filters/latent variables in the GSM, equivalent to the
 wnode:  matrix of size Dx x Dx, whitening filters for preprocessing natural images  
 A:      matrix of size Dx x Dy, filter bank for 16x16 image patches  
 rho:    matrix of size Dy x Dy, prior covariance matrix (denoted as C in the equations of the paper)  
-sigmaX  scalar, observation noise in GSM  
-kGam    scalar, shape parmaeter of Gamma distribution, prior of contrast variable z  
-thGam   scalar, scale parmaeter of Gamma distribution, prior of contrast variable z  
-alpha   scalar, exponent of the membrane potential nonlinearity  
-uTh     scalar, membrane potential threshold for the firing rate nonlinearity  
-m       scalar, gain of the firing rate nonlinearity  
-beta    scalar, exponent of the power-law of the firing rate nonlinearity  
+sigmaX: scalar, observation noise in GSM  
+kGam:   scalar, shape parmaeter of Gamma distribution, prior of contrast variable z  
+thGam:  scalar, scale parmaeter of Gamma distribution, prior of contrast variable z  
+alpha:  scalar, exponent of the membrane potential nonlinearity  
+uTh:    scalar, membrane potential threshold for the firing rate nonlinearity  
+m:      scalar, gain of the firing rate nonlinearity  
+beta:   scalar, exponent of the power-law of the firing rate nonlinearity  
 
 **get_pz_x_max.m**  
 Function to determine the range of integration for the posterior distribution, P(z|x), of contrast variable z.
