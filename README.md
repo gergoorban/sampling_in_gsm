@@ -25,7 +25,7 @@ The file contains parmaeters used in the simulations
 
 Dx:     scalar, number of observed variables or pixels of the image patches - 16x16=256  
 Dy:     scalar, number of filters/latent variables in the GSM, equivalent to the number of neurons in the population (Du)  
-wnode:  matrix of size Dx x Dx, whitening filters for preprocessing natural images  
+wnode:  matrix of size Dx x Dx, whitening filters trained on natural images for preprocessing input images  
 A:      matrix of size Dx x Dy, filter bank for 16x16 image patches  
 rho:    matrix of size Dy x Dy, prior covariance matrix (denoted as C in the equations of the paper)  
 sigmaX: scalar, std of observation noise in GSM  
