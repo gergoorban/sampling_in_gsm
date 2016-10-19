@@ -28,7 +28,7 @@ Dy:     scalar, number of filters/latent variables in the GSM, equivalent to the
 wnode:  matrix of size Dx x Dx, whitening filters for preprocessing natural images  
 A:      matrix of size Dx x Dy, filter bank for 16x16 image patches  
 rho:    matrix of size Dy x Dy, prior covariance matrix (denoted as C in the equations of the paper)  
-sigmaX: scalar, observation noise in GSM  
+sigmaX: scalar, std of observation noise in GSM  
 kGam:   scalar, shape parmaeter of Gamma distribution, prior of contrast variable z  
 thGam:  scalar, scale parmaeter of Gamma distribution, prior of contrast variable z  
 alpha:  scalar, exponent of the membrane potential nonlinearity  
