@@ -5,7 +5,7 @@ Network model of V1 simple cells which represent a complete probability distribu
 
 This is a repository of matlab files underying the paper:
 
-*Orban G, Berkes P, Fiser J, Lengyel M (2016) Neural Variability and Sampling-Based Probabilistic Representations in the Visual Cortex. 92:1-14.*
+*Orban G, Berkes P, Fiser J, Lengyel M (2016) Neural Variability and Sampling-Based Probabilistic Representations in the Visual Cortex. Neuron, 92:1-14.*
 
 Some routines use the lightspeed toolbox (http://research.microsoft.com/en-us/um/people/minka/software/lightspeed/)
 
