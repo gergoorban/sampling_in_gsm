@@ -11,7 +11,7 @@ Some routines use the lightspeed toolbox (http://research.microsoft.com/en-us/um
 
 By Gergo Orban
 
-CONTENTS
+### CONTENTS
 
 model_parameters.mat
 
@@ -19,10 +19,9 @@ get_pz_x_max.m
 
 infer_u_and_z_indivzrange.m     dependecy: -> get_pz_x_max.m
 
-DESCRIPTION
+### DESCRIPTION
 
-*model_parameters.mat*
-
+*model_parameters.mat*  
 The file contains parmaeters used in the simulations
 
 Dx:     scalar, number of observed variables or pixels of the image patches - 16x16=256
