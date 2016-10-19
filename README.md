@@ -16,6 +16,7 @@ By Gergo Orban
 model_parameters.mat  
 get_pz_x_max.m  
 infer_u_and_z_indivzrange.m,     dependecy: <- get_pz_x_max.m
+calc_firing_rate.m
 
 ### DESCRIPTION
 
@@ -43,3 +44,7 @@ Function to make inference over the latent variable y upon presenting a stimulus
 
 The function implements *Equations 4* and *5* in the paper.
 
+**calc_firing_rate.m**  
+Function to calculate firing rates and membrane potentials from latent variable activations. 
+
+The function implements *Equations 4* and *5* in the paper.
