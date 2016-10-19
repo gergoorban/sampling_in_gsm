@@ -15,7 +15,7 @@ By Gergo Orban
 
 model_parameters.mat  
 get_pz_x_max.m  
-infer_u_and_z_indivzrange.m,     dependecy: <- get_pz_x_max.m
+infer_u_and_z_indivzrange.m,     dependecy: <- get_pz_x_max.m  
 calc_firing_rate.m
 
 ### DESCRIPTION
