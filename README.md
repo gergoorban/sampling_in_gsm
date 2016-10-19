@@ -40,7 +40,7 @@ beta:   scalar, exponent of the power-law of the firing rate nonlinearity
 Function to determine the range of integration for the posterior distribution, P(z|x), of contrast variable z.
 
 **infer_u_and_z_indivzrange.m**  
-Function to make inference over the latent variable y upon presenting a stimulus x. The resulting posterior is P(y | x) = int P(y | x, z) P(z | x) dz. The first term in the integral is a gaussian, with mean and covariance depending on z. The second term is the posterior of z, which is evaluated at discrete points and is an output of the function. Means and covariances of the first term are also assessed at the didcrete z's and are also part of the output of the function. 
+Function to make inference over the latent variable y upon presenting a stimulus x. The resulting posterior is P(y | x) = int P(y | x, z) P(z | x) dz. The first term in the integral is a gaussian, with mean and covariance depending on z. The second term is the posterior of z, which is evaluated at discrete points, and is an output of this function. Means and covariances of the first term are also assessed at the discrete z's and are also part of the output of the function. 
 
 The function implements *Equations 4* and *5* in the paper.
 
