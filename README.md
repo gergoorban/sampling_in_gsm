@@ -47,4 +47,4 @@ The function implements *Equations 4* and *5* in the paper.
 **calc_firing_rate.m**  
 Function to calculate firing rates and membrane potentials from latent variable activations. 
 
-The function implements *Equations 4* and *5* in the paper.
+The function implements *Equations 6* and *7* in the paper.
