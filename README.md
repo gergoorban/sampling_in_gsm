@@ -14,12 +14,15 @@ By Gergo Orban
 CONTENTS
 
 model_parameters.mat
+
 get_pz_x_max.m
+
 infer_u_and_z_indivzrange.m     dependecy: -> get_pz_x_max.m
 
 DESCRIPTION
 
 model_parameters.mat
+
 The file contains parmaeters used in the simulations
 
 Dx:     scalar, number of observed variables or pixels of the image patches - 16x16=256
@@ -36,8 +39,10 @@ m       scalar, gain of the firing rate nonlinearity
 beta    scalar, exponent of the power-law of the firing rate nonlinearity
 
 get_pz_x_max.m
+
 Function to determine the range of integration for the posterior distribution, P(z|x), of contrast variable z.
 
 infer_u_and_z_indivzrange.m
+
 Function to make inference over the latent variable y upon presenting a stimulus x. The resulting posterior is P(y | x) = int P(y | x, z) P(z | x) dz. The first term in the integral is a gaussian, with mean and covariance depending on z. The second term is the posterior of z, which is evaluated at discrete points and is an output of the function. Means and covariances of the first term are also assessed at the didcrete z's and are also part of the output of the function. The function implements Equation 5 in the paper.
 
